@@ -1,0 +1,99 @@
+/*CSS do Cabeçalho*/
+header {
+    background: #252424;
+    height: 9em;
+}
+
+header img {
+    position: relative;
+    width: 9em;
+}
+
+.imagemCabecalho {
+    text-align: center;
+}
+
+/*CSS da Landing Page*/
+
+.landing {
+    background: #e39b3c;
+    height: 40em;
+}
+
+.caixa {
+    background: #e39b3c;
+    width: 940px;
+    height:40em ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#titulo {
+    text-align: center;
+    position: absolute;
+}
+
+.alinhamento-imagem {  
+    text-align: left; /*A imagem precisa estar em uma div para poder ser centralizada*/
+}
+    
+#imagem-landing {
+    display: inline-block;
+    position: relative;
+    width: 70%;
+
+    top: 16em;
+}
+
+#laranja-landing {
+    position: relative;
+    float: right;
+    width: 25%;
+
+    top: 7em;
+    right: 1em;
+}
+
+.texto-principal {
+    position: absolute;
+    float: right;
+    margin: 6em 0 0 37em;
+
+    width: 17em;
+
+}
+
+.texto-principal p {
+    text-align: left ;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 18em;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    text-align: left;
+    display: block;
+
+    color: white;
+    font-size: 3em;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+}
+
+#botao-conhecer {
+
+    text-align: left;
+    border: solid 2px white;
+    border-radius: 1em;
+
+    padding: 0.2em 1em;
+
+    font-weight: bold;
+    font-size: 1.4em;
+
+    color: white;
+    display: inline;
+    text-align: left;
+}
+
