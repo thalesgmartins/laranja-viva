@@ -16,12 +16,14 @@ header img {
 /*CSS da Landing Page*/
 
 .landing {
-    background: #e39b3c;
+    background: radial-gradient(circle at center, #e6973b 0, #cb7a31 40%, #aa5e24, #965121 100%);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
     height: 40em;
 }
 
 .caixa {
-    background: #e39b3c;
     width: 940px;
     height:40em ;
     text-align: center;
@@ -29,6 +31,17 @@ header img {
 }
 
 #titulo {
+
+    margin: 0.5em auto auto 0;
+    padding: 0.2em 0 0.2em 0;
+
+    width: 940px;
+
+
+    border: solid 2px white;
+    border-radius: 1em;
+
+    font-weight: bold;
     text-align: center;
     position: absolute;
 }
@@ -83,17 +96,212 @@ h1 {
 
 #botao-conhecer {
 
-    text-align: left;
-    border: solid 2px white;
+    background: #445c3b;
+    border: solid 2px none;
     border-radius: 1em;
 
-    padding: 0.2em 1em;
+    padding: 0.2em 0;
 
     font-weight: bold;
     font-size: 1.4em;
 
     color: white;
-    display: inline;
-    text-align: left;
+    position: absolute;
+    text-align: center;
+    right: 1em;
+
+    display: block;
+    width: 9em;
+
+    cursor: pointer;
+    transition: all 1s;
+
+    box-shadow: 0px 4px 6px 0.5px #161616;
 }
 
+#botao-conhecer:hover {
+    transform: scale(2) rotate(360deg);
+
+
+
+}
+
+/*CSS Produtos*/
+
+.produtos {
+    background: #e6dcd4;
+    height: 40em;
+}
+
+.seletor {
+    background: #445c3b;
+    width: 50em;
+    height: 40em;
+}
+
+.ajuste-tamanho-seletor {
+    width: 20em;
+    height: 8em;
+    margin: 0 auto;
+}
+
+h2 {
+
+    position: relative;
+    top: 1em;
+
+
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+
+.texto-branco {
+    color: white;
+}
+
+#pesquisar {
+    background: white;
+    border: solid 2px none;
+    border-radius: 1em;
+    display: block;
+
+    padding: 0.2em 0;
+
+    font-weight: bold;
+    font-size: 1.4em;
+
+    color: black;
+    position: relative;
+    text-align: center;
+
+    margin: 2em auto;
+
+    width: 9em;
+
+    cursor: pointer;
+    transition: all 1s;
+
+    box-shadow: 0px 4px 6px 0.5px #161616;
+}
+
+#pesquisar:hover {
+    transform: scale(1.3);
+}
+
+.lista-produtos {
+    background: #e6dcd4;
+    width: 90%;
+    height: 29em;
+
+    border: solid 1px none;
+    border-radius: 3em;
+
+    margin: auto auto;
+
+    box-shadow: 0px 4px 6px 0.5px #161616;
+}
+
+.produto-lista {
+    display: inline-block;
+    margin: 10px 10px;
+    
+    width: 30%;
+    height: 45%;
+    text-align: center;
+
+    border: solid none;
+    border-radius: 1em;
+
+    transition: all 0.5s;
+}
+
+.produto-lista:hover {
+
+}
+
+.produto-lista li {
+    height: 30%;
+    margin: auto;
+}
+
+.produto-lista li img {
+    position: relative;
+    top: 0.5em;
+    width: 10em;
+}
+
+.produto-lista li strong {
+    font-weight: bold;
+    position: relative;
+
+    top: 7em
+}
+
+.centraliza-imagem {
+    text-align: center;
+}
+
+/*CSS Feedback*/
+
+.feedback-geral {
+    background: red;
+    height: 35em;
+}
+
+
+
+
+
+
+
+
+
+/*CSS do Rodapé*/
+
+footer {
+    height: 19em;
+    background: #242423;
+
+    color: white;
+}
+
+footer img {
+    width: 10em;
+}
+
+footer h3 {
+    font-weight: bold;
+
+    font-size: 1.5em;
+    padding: 0 0 0.7em 1em;
+    margin: 4em 0 0 0;
+}
+
+.contato {
+    width: 15em;
+    float: left;
+}
+
+footer li {
+    padding: 0 0 0.3em 1em;
+    
+}
+
+.direitos {
+    float: right;
+    width: 15em;
+
+    padding: 0 1em 0 0;
+    margin: 7em 0 0 0;
+}
+
+.copy {
+    position: relative;
+    width: 50%;
+    margin: 0 auto;
+    
+    padding: 7em 0 0 0;
+    text-align: center;
+}
